@@ -1,28 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
         <meta charset="UTF-8">
-        <title>hello, world!</title>
+        <title>Creative Research Project</title>
         <meta name="viewport" content="width=device=width, initial-scale=1">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/-debug.css">
         <link rel="stylesheet" href="styles/article.css">
         <link rel="stylesheet" href="styles/article-image.css">
+    </head>
+        
         <style>
+         h1, p:not(last-child) {margin-bottom: 2.4rem; }
 
+        h1   {font: 700 2.0rem/1.2 "Roboto";color: hsl(000, 0%, 0%) }
+        h2   {font: 700 1.5rem/1.2 "Roboto";color: hsl(240, 100%, 50%) }
+        time {font: 400 1.0rem/1.2 "Roboto";color: hsl(205.7, 53.3%, 79%) }
+        h3   {font: 700 1.5rem/1.2 "Roboto";color: hsl(240, 100%, 50%)  }
+        p    {font: 400 1.0rem/1.5 "Roboto";color: hsl(000, 0%, 33%) }
+        h4   {font: 700 1.5rem/1.5 "Roboto";color: hsl(240, 100%, 50%) }
+        h5   {font: 700 1.5rem/1.5 "Roboto";color: hsl(240, 100%, 50%) }
+        </style>
 
-        </style>        
-    </head>  
-    <body>    
-        <article> 
-            <h1>Abstract</h1>
-            <time datetime="10-21-2022">OCT. 21, 2022</time>
-            <p>The involvement of extracurriculars in youth today is not only beneficial but deeply important in the regards of socializing, positive activity, and participation. Many schools and communities of well established funding are able to provide a plethora of opprotunities to get involved, meanwhile communties of low-income have little to no proper funding to get youth programs off the ground or even keep them running. Lack of extracurriculars in impoverished communities can lead to many negative impacts and habits within young people which can result to addiction, crime, incarceration, and even death. Within this project, I will express how exactly does the lack of extracurriculars in low-funded schools and communities affect young people and students, in addition, explore how the increase of activies for the youth could be beneficial towards their everyday lives. I plan to presnt my work through an interactive essay, where more informatin within and amongst my piece will be avalible to the user through images and statistics. A main challenge within this is not very much the research and information, but the coding and artistic ability to bring it all together as one.
-
+    
+    
+    <body> 
+        <script src="sketch.js"></script>
+        <article id = "How-Does"> 
+            <h1><a href =  "How-Does"><em>How Does</em> Lack of Extracurriculars affect Youth in Poverty?</h1>
+                <time datetime="10-21-2022">OCT. 21, 2022</time>
+           
+                <canvas height="400" width="400"></canvas>
+        
+            <h2>Intro</h2>
+            <p>
+                Implementing extracurricular activities in young people's lives can be extremely essential and beneficial towards future success and skill development. Unfortunately, not every student is granted the opportunities of being able to express themselves through activities due to their living conditions. Effects of living in a low-income community can possibly cause many missed opportunities for academic growth and success in young students. In addition, lack of extracurriculars in these rural communities tend to lead to negative behaviors, such as indulging in drug use and/or gun violence. The purpose of this text is to express How does lack of Extracurriculars in poverty affect the youth?
             </p>
 
-        
+            <h2>Poverty</h2>
+            <p>
+                Living within poverty alone can be deeply detrimental to social and human development, and also well being and health. It can be characterized with deprivation of basic human needs, such as food, uncontaminated water, health, sanitation facilities, shelter, information, and education. Poverty can prevent families from accessing a healthier diet, participating in enjoyable activities and hobbies, and socializing outdoors. Living within low-income communities can cause a chronic stress for families and their children, which can cause risk for academic achievement, social problems, and their health. While poverty may come with many effects, one effect that impacts the youth is the lack of Extracurriculars.
+            </p>
+
+ 
+            <h3>Gun Violence</h3>
+            
+            <p>
+                Homicidal death by firearms is a constant leading cause of death amongst children and teens from ages of 0-19 in the United States. This accounted for more than 2800 deaths in 2020 (8 per day). Gun violence alone brings a lot of detrimental burden amongst many families across America who reside in low-socioeconomic areas. You may ask, what does extracurriculars have to do with any of this? Lack of extracurriculars push youth into rebellious activity, gang affiliation, and firearm use due to the fact that there are no positive activities in which young people can turn to, which turns them directly into the rural streets of their neighborhoods
+            </p>
+        <div class = "wrapper">
+        <img class="graph" src="graph.jpg " alt="graph">
+        </div>
+             <p>
+                The implementation of extracurricular programs in impoverished communities such as anti-violence awareness campaigns , safe-havens, youth community programs, and neighborhood helpers have been used to create positive and prosocial attitudes and behaviors in these areas. Within several communities across the country, empowerment zones were created to approach and manage multitudes of problems within their communities such as violence and crime.  There have even been efforts made to change the physical environment in some communities also, such as increased lighting, neighborhood police patrols, and substations.
+             </p>
+            <h4>Drug Abuse</h4>
+            <p>
+                Without the opportunity of having resourceful activities available to adolescents, This can push not only crime-related activity(such as gun violence) but also an increase in drug abuse. Poverty and the usage of drugs can play hand in hand due to the factors that a low-socioeconomic environment can cause. Young people within poverty tend to undergo a lot of stress. This could stem from unconsulted grief, worries about living conditions, lack of social support, etc. Not only do factors of their physical surroundings play a role, but teenagers who are growing tend to go under a lot of mental duress as well. Whenever there is a lack of resources and programs within communities to help the youth, this steers adolescents and young adults towards drug abuse. 
+            </p>
+            <p>
+                Implementation on more available resources and programs within low-income communities could possibly help adolescents steer clear of drug use. Having an activity such as being a part of a program or a sport for young people to join in gives more opportunity for a stronger social networking and academic success and less opportunity to have time to even indulge in drug use.
+            </p>
+            <h5>Essentiality On Extra Curriculars</h5>
+            <p>
+                In school and out of school activities overall help the youth expand who they are as people by enhancing social and communication skills, leading them into different avenues and careers, and most importantly steering them away from detrimental habits that can lead to either addiction, death, or incarceration. Low- income communities need these types of resources for students to help build them into a thriving adulthood with the skills needed to help them go beyond their neighborhoods. Making sure that adolescents and young adults from low-income communities have the resources to branch out into extracurricular activities is deeply beneficial to their mentality and their health.This could be anything from sports, jobs, internships, band, etc. Every student deserves a chance, and family income should never be a deciding factor.
+            </p>
         </article>
     </body>
 </html>
